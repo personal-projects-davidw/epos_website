@@ -1,0 +1,25 @@
+/* Selector {
+    Property: value;
+} */
+.start-hero {
+    font-family: 'Fjalla One', sans-serif;
+    color: rgb(255, 116, 0);
+}
+
+.card-img-top {
+    width: 65%;
+    height: 65%
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.card {
+    transition: all 0.3s;
+    box-shadow: 4px 4px 5px #888888;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+}
